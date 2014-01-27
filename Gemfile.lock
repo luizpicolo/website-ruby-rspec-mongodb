@@ -53,7 +53,6 @@ GEM
     bourbon (3.1.8)
       sass (>= 3.2.0)
       thor
-    bson (1.9.2)
     builder (3.0.4)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
@@ -97,12 +96,6 @@ GEM
       activesupport (~> 3.1)
       polyamorous (~> 0.5.0)
     mime-types (1.25.1)
-    mongo (1.9.2)
-      bson (~> 1.9.2)
-    mongo_mapper (0.11.2)
-      activemodel (~> 3.0)
-      activesupport (~> 3.0)
-      plucky (~> 0.5.1)
     mongoid (3.1.6)
       activemodel (~> 3.2)
       moped (~> 1.4)
@@ -112,8 +105,6 @@ GEM
     multi_json (1.8.4)
     origin (1.1.0)
     orm_adapter (0.5.0)
-    plucky (0.5.2)
-      mongo (~> 1.5)
     polyamorous (0.5.0)
       activerecord (~> 3.0)
     polyglot (0.3.3)
@@ -175,7 +166,6 @@ DEPENDENCIES
   activeadmin-mongoid
   coffee-rails (~> 3.2.1)
   jquery-rails
-  mongo_mapper (~> 0.11.1)
   rails (= 3.2.13)
   sass-rails (~> 3.2.3)
   uglifier (>= 1.0.3)

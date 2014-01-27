@@ -21,12 +21,7 @@ end
 
 gem 'jquery-rails'
 
-# Mongo Mapper
-gem "mongo_mapper", "~> 0.11.1"
-
 # Active Admin
-#gem 'mm-devise'
-#gem 'activeadmin-mongomapper'
 gem 'activeadmin-mongoid'
 
 # To use ActiveModel has_secure_password
