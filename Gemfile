@@ -24,6 +24,9 @@ gem 'jquery-rails'
 # Active Admin
 gem 'activeadmin-mongoid'
 
+# RSpec
+gem 'rspec'
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
