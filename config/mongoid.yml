@@ -82,4 +82,8 @@ test:
 production:
   sessions:
     default:
-      uri: <%= ENV['MONGOHQ_URL'] %>
+      # MongoHQ
+      #uri: <%= ENV['MONGOHQ_URL'] %>
+
+      # MongoLab
+      uri: <%= ENV['MONGOLAB_URI'] %>
