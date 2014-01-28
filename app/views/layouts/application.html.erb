@@ -19,8 +19,8 @@
 
 		<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-		<%= stylesheet_link_tag    "application", :media => "all" %>
-		<%= csrf_meta_tags %>
+		<%= stylesheet_link_tag	"application", media: "all", "data-turbolinks-track" => true %>
+  		<%= csrf_meta_tags %>
 		<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
@@ -32,8 +32,8 @@
 			<!-- CABEÇALHO -->
 			<header id="topo">
 				<hgroup id="logomarca">
-					<a href="/index.php"> <h1>Luiz Picolo</h1> 
-						<!--<h1><img src="assets/img/logoPicolo.png"></h1>--> 
+					<a href="/"> 
+						<h1>Luiz Picolo</h1> 
 						<h2>Desenvolvimento Web</h2> 
 					</a>
 				</hgroup>
@@ -41,22 +41,22 @@
 					<h1>Menu Principal</h1>
 					<ul>
 						<li>
-							<a href="?pag=inicio">Início</a>
+							<a href="/">Início</a>
 						</li>
 						<li>
-							<a href="?pag=quem-sou">Quem Sou</a>
+							<a href="quem-sou">Quem Sou</a>
 						</li>
 						<li>
-							<a href="?pag=portfolio">PortFolio</a>
+							<a href="portfolio">PortFolio</a>
 						</li>
 						<li>
 							<a href="https://vimeo.com/user6220071/videos" target="blank"><b>Video Aulas</b></a>
 						</li>
 						<li>
-							<a href="?pag=publicacoes">Publicações</a>
+							<a href="publicacoes">Publicações</a>
 						</li>
 						<li>
-							<a href="?pag=contato">Contato</a>
+							<a href="contato">Contato</a>
 						</li>
 					</ul>
 				</nav>
@@ -90,8 +90,8 @@
 			</footer>
 		</div>
 
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-		<script src="assets/js/main.js"></script>
+		<%= javascript_include_tag "//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js", "data-turbolinks-track" => true %>
+		<%= javascript_include_tag "application", "data-turbolinks-track" => true %>
 
 		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 		<script>

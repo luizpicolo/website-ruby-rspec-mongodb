@@ -173,6 +173,8 @@ GEM
     treetop (1.4.15)
       polyglot
       polyglot (>= 0.3.1)
+    turbolinks (2.2.0)
+      coffee-rails
     tzinfo (0.3.38)
     uglifier (2.4.0)
       execjs (>= 0.3.0)
@@ -186,9 +188,8 @@ PLATFORMS
 DEPENDENCIES
   activeadmin-mongoid
   bson_ext
-  coffee-rails (~> 3.2.1)
-  jquery-rails
   rails (= 3.2.13)
   rspec-rails (~> 3.0.0.beta)
   sass-rails (~> 3.2.3)
+  turbolinks
   uglifier (>= 1.0.3)
