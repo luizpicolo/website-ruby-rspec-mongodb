@@ -85,5 +85,5 @@ production:
       # MongoHQ
       #uri: <%= ENV['MONGOHQ_URL'] %>
 
-      # MongoLab
+      # MongoLabs
       uri: <%= ENV['MONGOLAB_URI'] %>
