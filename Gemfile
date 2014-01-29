@@ -24,6 +24,7 @@ gem 'bson_ext'
 
 # Active Admin
 gem 'activeadmin-mongoid'
+gem 'active_admin_editor'
 
 # RSpec
 group :development, :test do
