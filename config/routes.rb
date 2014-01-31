@@ -1,5 +1,5 @@
 WebsiteRubyRspecMongodb::Application.routes.draw do
-  
+
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
 
@@ -7,7 +7,10 @@ WebsiteRubyRspecMongodb::Application.routes.draw do
   # first created -> highest priority.
 
   # Sample of regular route:
-  match 'quem-sou' => "quem_sou#index"
+  match "quem-sou"      => "about_me#index"
+  match "portfolio"     => "portfolio#index"
+  match "contato"       => "contact#index"
+  match "publicacoes"   => "publication#index"
 
   # Sample of named route:
   #   match 'products/:id/purchase' => 'catalog#purchase', :as => :purchase
