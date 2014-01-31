@@ -1,14 +1,9 @@
 require 'spec_helper'
+require 'factories'
 
 describe Article do
   it "object article create is valid?" do
-		article = Article.new({
-			title: "Title for Test",
-			description: "",
-			body: "Body for Test",
-			position_image_highlighted: ""
-		})
-
+		article = FactoryGirl.create(:article)    
 		expect(article).to be_valid
 	end
 end
