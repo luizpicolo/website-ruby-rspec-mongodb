@@ -26,9 +26,12 @@ gem 'bson_ext'
 gem 'activeadmin-mongoid'
 gem 'active_admin_editor'
 
-# RSpec
 group :development, :test do
-  gem 'rspec-rails', '~> 3.0.0.beta'
+	# RSpec
+	gem 'rspec-rails', '~> 3.0.0.beta'
+  	
+  	# Factory Girl
+	gem 'factory_girl'
 end
 
 # Turbo Link
