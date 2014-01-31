@@ -206,7 +206,6 @@ PLATFORMS
 DEPENDENCIES
   active_admin_editor
   activeadmin-mongoid
-  bcrypt-ruby
   bson_ext
   factory_girl_rails (~> 4.0)
   rails (= 3.2.13)
