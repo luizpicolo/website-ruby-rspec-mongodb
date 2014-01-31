@@ -4,5 +4,5 @@ Pagina Pessoal
 
 <a href="https://travis-ci.org/luizpicolo/website-ruby-rspec-mongodb"><img src="https://travis-ci.org/luizpicolo/website-ruby-rspec-mongodb.png?branch=master"></a>
 
-<p>Este repositório tem como intuito de manter meu novo site o qual está sendo migrado para Ruby com 
+<p>Este repositório tem como intuito manter meu novo site que está sendo migrado para Ruby com 
 framework Rails</p>
