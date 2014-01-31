@@ -30,8 +30,8 @@ group :development, :test do
 	# RSpec
 	gem 'rspec-rails', '~> 3.0.0.beta'
   	
-  	# Factory Girl
-	gem 'factory_girl'
+  # Factory Girl
+	gem "factory_girl_rails", "~> 4.0"
 end
 
 # Turbo Link
