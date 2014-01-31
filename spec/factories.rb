@@ -5,4 +5,8 @@ FactoryGirl.define do
     body "Body for Test"
     position_image_highlighted = ""
   end
+
+  factory :tag do
+    name "Name for Test"
+  end
 end
