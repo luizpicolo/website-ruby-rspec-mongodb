@@ -28,8 +28,8 @@ gem 'active_admin_editor'
 
 group :development, :test do
 	# RSpec
-	gem 'rspec-rails', '~> 3.0.0.beta'
-  	
+	gem 'rspec-rails', '~> 2.14'
+
   # Factory Girl
 	gem "factory_girl_rails", "~> 4.0"
 end
