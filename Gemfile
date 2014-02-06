@@ -49,6 +49,9 @@ group :production do
   gem 'unicorn'
 end
 
+# Pretty URL
+gem "mongoid_slug", "~> 2.0.1"
+
 # Deploy with Capistrano
 # gem 'capistrano'
 
