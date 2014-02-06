@@ -1,13 +1,13 @@
 <%@articles.each do |a|%>
 <section class="clearfix">
     <h1>
-        <a href="#"><%= a.title%></a>
+        <a href="<%=a.created_at.strftime("%Y/%m/%d")%>/<%= a.slugs[-1]%>/"><%= a.title%></a>
     </h1>
         <figure class="<%= a.position_image_highlighted.downcase%>">
             <%= image_tag("1.jpg", alt: "Edit Entry") %>
             <figcaption></figcaption>
         </figure>
         <%=a.description.html_safe%>  
-    <a href="#" class="contLendo">Continue Lendo...</a>
+    <a href="<%=a.created_at.strftime("%Y/%m/%d")%>/<%= a.slugs[-1]%>/" class="contLendo">Continue Lendo...</a>
 </section>
 <%end%>
