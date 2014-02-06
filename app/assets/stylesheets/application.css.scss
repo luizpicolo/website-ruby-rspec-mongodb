@@ -152,7 +152,7 @@ p {
 }
 
 #nav-principal li:hover, .selecionado {
-    border-bottom:3px solid #CCC
+    /*border-bottom:3px solid #CCC*/
 }
 
 footer p {
@@ -527,5 +527,23 @@ form input[type=submit] {
     }
     h2, h3 {
         page-break-after:avoid
+    }
+}
+
+.post-date {
+    font-size: 15px;
+    text-align: right;
+}
+
+.tags {
+    display: inline-block;
+    background: #000;
+    font-size: .7em;
+    padding: 1px 3px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+
+    a {
+        color: #FFF;    
     }
 }
