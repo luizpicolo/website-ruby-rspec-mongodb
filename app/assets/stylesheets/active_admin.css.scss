@@ -15,3 +15,12 @@
 // For example, to change the default status-tag color:
 //
 //   .status_tag { background: #6090DB; }
+
+#cke_article_body {
+	float: left !important;
+	width: 77.2% !important;
+}
+
+#article_position_image_highlighted_input {
+	clear: both !important;
+}
