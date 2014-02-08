@@ -24,7 +24,12 @@ gem 'bson_ext'
 
 # Active Admin
 gem 'activeadmin-mongoid'
-gem 'active_admin_editor'
+
+# Paperclip
+gem 'mongoid-paperclip', :require => 'mongoid_paperclip'
+
+# CkEditor
+gem "ckeditor"
 
 group :development, :test do
 	# RSpec
