@@ -1,15 +1,15 @@
 <section>
     <h1>Contato</h1> 
 	<p>Entre em contato comigo. Seus comentários e sugestões são muito importantes.</p>
-	<form method="post" action="">
-	    <label>Nome</label>
-	    <input type="text" name="nome" placeholder="Nome" required>
-	    <label>Email</label>
-	    <input type="email" name="nome" placeholder="E-mail" required>
-	    <label>Assunto</label>
-	    <input type="text" name="nome" placeholder="Assunto" required>
-	    <label>Mensagem</label>
-	    <textarea name="mensagem" placeholder="mensagem" required></textarea>
-	    <input type="submit" value="Enviar">
-	</form>
+	<%= form_tag("/contato/enviar", method: "post") do %>
+		<%= label_tag :nome, "Nome:" %>
+  		<%= text_field_tag :nome %>
+	    <%= label_tag :email, "Email:" %>
+  		<%= text_field_tag :email %>
+	    <%= label_tag :assunto, "Assunto:" %>
+  		<%= text_field_tag :assunto %>
+	    <%= label_tag :mensagem, "Mensagem:" %>
+	    <%= text_area_tag :mensagem %>
+	    <%= submit_tag "Enviar" %>
+	<% end %>
 </section>

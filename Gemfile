@@ -28,8 +28,8 @@ gem 'active_admin_editor'
 
 group :development, :test do
 	# RSpec
-	gem 'rspec-rails', '~> 3.0.0.beta'
-  	
+	gem 'rspec-rails', '~> 2.14'
+
   # Factory Girl
 	gem "factory_girl_rails", "~> 4.0"
 end
@@ -48,6 +48,9 @@ gem "bcrypt-ruby", :require => "bcrypt"
 group :production do
   gem 'unicorn'
 end
+
+# Pretty URL
+gem "mongoid_slug", "~> 2.0.1"
 
 # Deploy with Capistrano
 # gem 'capistrano'

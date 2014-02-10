@@ -7,10 +7,12 @@ WebsiteRubyRspecMongodb::Application.routes.draw do
   # first created -> highest priority.
 
   # Sample of regular route:
-  match "quem-sou"      => "about_me#index"
-  match "portfolio"     => "portfolio#index"
-  match "contato"       => "contact#index"
-  match "publicacoes"   => "publication#index"
+  match "quem-sou"                    => "about_me#index"
+  match "portfolio"                   => "portfolio#index"
+  match "contato"                     => "contact#index"
+  match "contato/enviar"              => "contact#send_message"
+  match "publicacoes"                 => "publication#index"
+  match ":ano/:mes/:dia/:title/"      => "article#show"
 
   # Sample of named route:
   #   match 'products/:id/purchase' => 'catalog#purchase', :as => :purchase
