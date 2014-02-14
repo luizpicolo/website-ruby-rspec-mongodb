@@ -37,8 +37,10 @@ application.js: application-ec0efd2ccfc1c3e64f037ff1c7dbc277.js
 application/index.js: application-ec0efd2ccfc1c3e64f037ff1c7dbc277.js
 active_admin.css: active_admin-be2da26b630f77b079472b1243ea7b86.css
 active_admin/index.css: active_admin-be2da26b630f77b079472b1243ea7b86.css
-application.css: application-7b45d22dc0e12bfc879bdde948fb76b0.css
-application/index.css: application-7b45d22dc0e12bfc879bdde948fb76b0.css
+application.css: application-ba227cfbc07147096b685b9976fc8991.css
+application/index.css: application-ba227cfbc07147096b685b9976fc8991.css
+nicEditorIcons.gif: nicEditorIcons-a9d61ebc2e2f069578db2c961d90bb50.gif
+nicEditorIcons/index.gif: nicEditorIcons-a9d61ebc2e2f069578db2c961d90bb50.gif
 ckeditor/application.js: ckeditor/application-a922c6ba8495995a73ee8e978cfab92d.js
 ckeditor/application/index.js: ckeditor/application-a922c6ba8495995a73ee8e978cfab92d.js
 ckeditor/config.js: ckeditor/config-b8ff36b86ef3168d3eaa0cc68769c4c9.js
