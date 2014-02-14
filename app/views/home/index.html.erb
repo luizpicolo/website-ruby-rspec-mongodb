@@ -1,9 +1,6 @@
 <%@articles.each do |a|%>
 <section class="clearfix">
     <h1><a href="<%=a.created_at.strftime("%Y/%m/%d")%>/<%= a.slugs[-1]%>/"><%= a.title%></a></h1>
-    <h1>
-        <a href="<%=a.created_at.strftime("%Y/%m/%d")%>/<%= a.slugs[-1]%>/"><%= a.title%></a>
-    </h1>
     	<% if a.position_image_highlighted.downcase != "none" %>
         <figure class="<%= a.position_image_highlighted.downcase%>">
             <%= image_tag(a.image_highlighted, alt: "Edit Entry") %>
