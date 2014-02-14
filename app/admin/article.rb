@@ -18,6 +18,7 @@ ActiveAdmin.register Article do
 			f.input :body, :as => :ckeditor, :input_html => { :ckeditor => { :height => 400 } }
 			f.input :position_image_highlighted, :as => :select, :collection => ["None", "Left", "Right", "Center"]
 			f.input :image_highlighted
+			f.input :figure_caption
 			f.input :tag_ids, :as => :check_boxes, :collection => Tag.asc(:name)
 		end
 
