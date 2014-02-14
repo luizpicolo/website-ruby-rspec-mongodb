@@ -1,9 +1,5 @@
 <article>
     <h1><%=@article.title%></h1>
-    <div class="addthis_toolbox addthis_default_style">
-        <p><a class="addthis_button_facebook_like" fb:like:layout="button_count"></a></p>
-        <p><a class="addthis_button_tweet"></a></p>
-    </div>
     <div class="post-date">Publicado em <%=@article.created_at.strftime("%d/%m/%Y")%> às <%=@article.created_at.strftime("%H:%M")%> - Luiz Picolo</div>
     <%=@article.body.html_safe%>
     <%=@article.tags.each do |a|%>
