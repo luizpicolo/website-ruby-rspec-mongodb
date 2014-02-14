@@ -14,10 +14,6 @@ GEM
       rack-cache (~> 1.2)
       rack-test (~> 0.6.1)
       sprockets (~> 2.2.1)
-    active_admin_editor (1.1.0)
-      activeadmin (>= 0.4.0)
-      ejs
-      rails (>= 3.0.0)
     activeadmin (0.6.3)
       arbre (~> 1.0)
       bourbon (>= 1.0.0, < 4)
@@ -61,6 +57,13 @@ GEM
     bson_ext (1.9.2)
       bson (~> 1.9.2)
     builder (3.0.4)
+    ckeditor (4.0.10)
+      mime-types
+      orm_adapter (~> 0.5.0)
+    climate_control (0.0.3)
+      activesupport (>= 3.0)
+    cocaine (0.5.3)
+      climate_control (>= 0.0.3, < 1.0)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
       railties (~> 3.2.0)
@@ -75,7 +78,6 @@ GEM
       thread_safe (~> 0.1)
       warden (~> 1.2.3)
     diff-lcs (1.2.5)
-    ejs (1.1.1)
     erubis (2.7.0)
     execjs (2.0.2)
     factory_girl (4.3.0)
@@ -116,6 +118,8 @@ GEM
       moped (~> 1.4)
       origin (~> 1.0)
       tzinfo (~> 0.3.29)
+    mongoid-paperclip (0.0.8)
+      paperclip (>= 2.3.6)
     mongoid_slug (2.0.1)
       mongoid (~> 3.0)
       stringex (~> 1.4)
@@ -123,6 +127,11 @@ GEM
     multi_json (1.8.4)
     origin (1.1.0)
     orm_adapter (0.5.0)
+    paperclip (4.1.0)
+      activemodel (>= 3.0.0)
+      activesupport (>= 3.0.0)
+      cocaine (~> 0.5.3)
+      mime-types
     polyamorous (0.5.0)
       activerecord (~> 3.0)
     polyglot (0.3.3)
@@ -201,11 +210,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  active_admin_editor
   activeadmin-mongoid
   bcrypt-ruby
   bson_ext
+  ckeditor
   factory_girl_rails (~> 4.0)
+  mongoid-paperclip
   mongoid_slug (~> 2.0.1)
   rails (= 3.2.13)
   rspec-rails (~> 2.14)

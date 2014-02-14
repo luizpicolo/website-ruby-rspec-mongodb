@@ -1,5 +1,4 @@
 //= require_self
-//= require active_admin/editor/wysiwyg
 
 button, html, input, select, textarea {
     color:#222
@@ -123,7 +122,7 @@ p {
 #logomarca h1 {
     text-align:center;
     margin-top:20px;
-    font-size:3em
+    font-size:3em;
 }
 
 #logomarca h2 {
@@ -173,12 +172,13 @@ main section {
 }
 
 figure {
-    
+    width: 300px;
+    max-height: 260px;
     overflow:hidden;
     text-align:center;
 
     img {
-        max-height:260px;
+        max-height:226px;
     }
 }
 
@@ -369,7 +369,7 @@ form input[type=submit] {
         margin:-7px 0 10px
     }
     #logomarca h1 {
-        font-size:2em
+        font-size:2em;
     }
     #logomarca h2 {
         font-size:.8em
@@ -441,6 +441,10 @@ form input[type=submit] {
 }
 .addthis_toolbox {
     text-align:right
+
+    p {
+        display: inline-block;
+    }
 }
 .ir {
     background-color:transparent;

@@ -18,7 +18,7 @@
 /layout
 
 # ignore public assets
-/public/assets
+# /public/assets
 .env
 
 # Ignore bundle
