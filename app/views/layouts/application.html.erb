@@ -10,18 +10,17 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<title>Luiz Picolo - Desenvolvimento Web</title>
 
-		<meta property="og:title" content="TITULO POSTAGEM FACE"/>
-		<meta property="og:image" content="http://luizpicolo.com.br/fb_logo.jpg" />
+		<meta property="og:title" content="<%=@title%>"/>
+		<meta property="og:image" content="http://i.imgur.com/t9Azfup.jpg" />
 		<meta property="og:site_name" content="Luiz Picolo - Desenvolvimento Web"/>
-		<meta property="og:description" content="DESCRICAO POSTAGEM FACE"/>
+		<meta property="og:description" content="<%=@description%>"/>
 
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
 		<%= stylesheet_link_tag	"application", media: "all", "data-turbolinks-track" => true %>
   		<%= csrf_meta_tags %>
-		<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Over+the+Rainbow' rel='stylesheet' type='text/css'>
+
+		<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
 		<!--[if lt IE 7]>
@@ -104,7 +103,6 @@
 		</script>
 
 		<!-- AddThis Smart Layers BEGIN -->
-		<!-- Go to http://www.addthis.com/get/smart-layers to customize -->
 		<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52f11d0a3e6ffcdb"></script>
 		<script type="text/javascript">
 		  addthis.layers({
