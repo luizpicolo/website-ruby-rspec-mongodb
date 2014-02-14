@@ -172,12 +172,13 @@ main section {
 }
 
 figure {
-    
+    width: 300px;
+    max-height: 260px;
     overflow:hidden;
     text-align:center;
 
     img {
-        max-height:260px;
+        max-height:226px;
     }
 }
 
