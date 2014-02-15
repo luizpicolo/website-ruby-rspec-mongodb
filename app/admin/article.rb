@@ -15,7 +15,7 @@ ActiveAdmin.register Article do
 		f.inputs "Articles" do
 			f.input :title
 			f.input :description
-			f.input :published_in, :as => :date_select
+			f.input :published_in, :as => :date_picker
 			f.input :body, :as => :ckeditor, :input_html => { :ckeditor => { :height => 400 } }
 			f.input :position_image_highlighted, :as => :select, :collection => ["None", "Left", "Right", "Center"]
 			f.input :image_highlighted
