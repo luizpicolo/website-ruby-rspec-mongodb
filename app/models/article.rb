@@ -4,6 +4,7 @@ class Article
 	include Mongoid::Slug
 
 	field 	:title, type: String
+	field 	:published_in, type: DateTime
 	field 	:description, type: String
 	field 	:body, type: String
 	field 	:position_image_highlighted, type: String
