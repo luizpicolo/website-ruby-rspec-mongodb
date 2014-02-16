@@ -1,6 +1,6 @@
 <article>
     <h1><%=@article.title%></h1>
-    <div class="post-date">Publicado em <%=@article.created_at.strftime("%d/%m/%Y")%> às <%=@article.created_at.strftime("%H:%M")%> - Luiz Picolo</div>
+    <div class="post-date">Publicado em <%=a.published_in.to_s.gsub("-", "/")%>.</div>
     <%=@article.body.html_safe%>
     <%=@article.tags.each do |a|%>
     <div class="tags">
