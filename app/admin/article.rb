@@ -2,14 +2,14 @@ ActiveAdmin.register Article do
 	index do
 		selectable_column 
 		column :title
-	    column :created_at, :label => 'Create Date'
+	    column :published_in, :label => 'Create Date'
 	    column :updated_at, :label => 'Update Date'
 	    
 	    default_actions
 	end
 
 	filter :title
-	filter :created_at
+	filter :published_in
 
 	form :html => { :enctype => "multipart/form-data" } do |f|
 		f.inputs "Articles" do
