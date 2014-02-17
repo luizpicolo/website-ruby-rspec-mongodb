@@ -14,6 +14,7 @@ WebsiteRubyRspecMongodb::Application.routes.draw do
   match "contato"                     => "contact#index"
   match "contato/enviar"              => "contact#send_message"
   match "publicacoes"                 => "publication#index"
+  match "article/show"                => "article#show"
   match ":ano/:mes/:dia/:title/"      => "article#show"
 
   # Sample of named route:
