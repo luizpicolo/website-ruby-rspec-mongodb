@@ -1,15 +1,24 @@
 <section>
     <h1>Contato</h1> 
 	<p>Entre em contato comigo. Seus comentários e sugestões são muito importantes.</p>
-	<%= form_tag("/contato/enviar", method: "post") do %>
-		<%= label_tag :nome, "Nome:" %>
-  		<%= text_field_tag :nome %>
-	    <%= label_tag :email, "Email:" %>
-  		<%= text_field_tag :email %>
-	    <%= label_tag :assunto, "Assunto:" %>
-  		<%= text_field_tag :assunto %>
-	    <%= label_tag :mensagem, "Mensagem:" %>
-	    <%= text_area_tag :mensagem %>
-	    <%= submit_tag "Enviar" %>
-	<% end %>
+	<section>
+        <h2><i class="fa fa-envelope-o"></i> Email</h2>
+		<p>luizpicolo@gmail.com</p>
+    </section>
+    <section>
+        <h2><i class="fa fa-facebook"></i> Facebook</h2>
+		<p><a href="http://www.fb.me/luizpicolo">http://www.fb.me/luizpicolo</a></p>
+    </section>
+    <section>
+        <h2><i class="fa fa-linkedin-square"></i> Linkedin</h2>
+		<p><a href="http://www.linkedin.com/in/luizpicolo">http://www.linkedin.com/in/luizpicolo</a></p>
+    </section>
+    <section>
+        <h2><i class="fa fa-github"></i> GitHub</h2>
+		<p><a href="http://www.github.com/luizpicolo">http://www.github.com/luizpicolo</a></p>
+    </section>
+    <section>
+        <h2><i class="fa fa-twitter"></i> Twitter</h2>
+		<p><a href="http://www.twitter.com/luizpicolo_">http://www.twitter.com/luizpicolo_</a></p>
+    </section>
 </section>
