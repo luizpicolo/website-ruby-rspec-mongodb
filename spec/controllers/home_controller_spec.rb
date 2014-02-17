@@ -9,12 +9,12 @@ describe HomeController do
       	expect(response).to be_success
     end
 
-    it "return is of type article object" do
-    	 article = Article.create
-		
+    it "return is of type article object" do		
+        article = Article.new
+
 		    get 'index'
 
-		    expect(assigns(:articles)).to have_at_least(1).articles
+		    expect(assigns(:articles)).to be_a(Mongoid::Criteria)
     end
 
     it "renders the index template" do
