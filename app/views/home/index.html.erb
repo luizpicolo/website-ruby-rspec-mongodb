@@ -1,3 +1,12 @@
+<div class="slideshow">
+    <a href=""><img src="http://malsup.github.com/images/beach1.jpg" width="770" height="200" /></a>
+    <a href=""><img src="http://malsup.github.com/images/beach2.jpg" width="770" height="200" /></a>
+    <a href=""><img src="http://malsup.github.com/images/beach3.jpg" width="770" height="200" /></a>
+    <a href=""><img src="http://malsup.github.com/images/beach4.jpg" width="770" height="200" /></a>
+    <a href=""><img src="http://malsup.github.com/images/beach5.jpg" width="770" height="200" /></a>
+</div>
+<div class="nav"><a id="prev2" href="#"><i class="fa fa-chevron-left"></i></a> <a id="next2" href="#"><i class="fa fa-chevron-right"></i></a></div>
+
 <%@articles.each do |a|%>
 <section class="clearfix">
     <h1><a href="<%=a.published_in.to_s.gsub("-", "/")%>/<%= a.slugs[-1]%>/"><%= a.title%></a></h1>

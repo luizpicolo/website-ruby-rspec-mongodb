@@ -130,6 +130,10 @@ p {
     margin-top:-20px
 }
 
+#nav-principal {
+    z-index: 20;
+}
+
 #nav-principal h1 {
     display:none
 }
@@ -545,5 +549,37 @@ form input[type=submit] {
 
     a {
         color: #FFF;    
+    }
+}
+
+.slideshow {
+    margin: 10px 0 0;
+
+    img {
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;        
+    }
+}
+
+.nav {
+    position: relative;
+    
+    #prev2, #next2 {
+        position: absolute;
+        top: -30px;
+        z-index: 9;
+    }
+
+    #next2 {
+        right: 10px;
+    }
+
+    #prev2 {
+         left: 10px;
+    }
+
+    a {
+        color: #375C79;
     }
 }
