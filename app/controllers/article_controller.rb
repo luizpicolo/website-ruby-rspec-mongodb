@@ -2,6 +2,6 @@ class ArticleController < ApplicationController
 	def show
   		@article = Article.find(params[:title]);
   		@title = @article.title
-		@description = @article.body
+		@description = @article.description
   	end
 end
