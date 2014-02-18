@@ -1,4 +1,7 @@
 class HomeController < ApplicationController
+
+	caches_page :index
+
 	def index
 		@articles = Article.order_by(:published_in.desc)
 		@title = "Luiz Picolo - Desenvolvimento Web"
