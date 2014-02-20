@@ -1,6 +1,6 @@
 class HomeController < ApplicationController
 
-	caches_page :index
+	#caches_page :index
 
 	def index
 		@articles = Article.order_by(:published_in.desc)
