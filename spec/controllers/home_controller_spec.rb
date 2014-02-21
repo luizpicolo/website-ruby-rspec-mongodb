@@ -17,8 +17,14 @@ describe HomeController do
 		    expect(assigns(:articles)).to be_a(Mongoid::Criteria)
     end
 
+    it 'return title and description' do
+      get 'index'
+      
+      expect(assigns(:title)).to be_a_kind_of(String);
+      expect(assigns(:description)).to be_a_kind_of(String);
+    end
+
     it "renders the index template" do
-      	
       	get :index
 
       	expect(response).to render_template("index")

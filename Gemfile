@@ -26,7 +26,7 @@ gem 'bson_ext'
 gem 'activeadmin-mongoid'
 
 # Paperclip
-gem 'mongoid-paperclip', :require => 'mongoid_paperclip'
+# gem 'mongoid-paperclip', :require => 'mongoid_paperclip'
 
 # CkEditor
 gem "ckeditor"

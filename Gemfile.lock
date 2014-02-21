@@ -60,10 +60,6 @@ GEM
     ckeditor (4.0.10)
       mime-types
       orm_adapter (~> 0.5.0)
-    climate_control (0.0.3)
-      activesupport (>= 3.0)
-    cocaine (0.5.3)
-      climate_control (>= 0.0.3, < 1.0)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
       railties (~> 3.2.0)
@@ -118,8 +114,6 @@ GEM
       moped (~> 1.4)
       origin (~> 1.0)
       tzinfo (~> 0.3.29)
-    mongoid-paperclip (0.0.8)
-      paperclip (>= 2.3.6)
     mongoid_slug (2.0.1)
       mongoid (~> 3.0)
       stringex (~> 1.4)
@@ -127,11 +121,6 @@ GEM
     multi_json (1.8.4)
     origin (1.1.0)
     orm_adapter (0.5.0)
-    paperclip (4.1.0)
-      activemodel (>= 3.0.0)
-      activesupport (>= 3.0.0)
-      cocaine (~> 0.5.3)
-      mime-types
     polyamorous (0.5.0)
       activerecord (~> 3.0)
     polyglot (0.3.3)
@@ -215,7 +204,6 @@ DEPENDENCIES
   bson_ext
   ckeditor
   factory_girl_rails (~> 4.0)
-  mongoid-paperclip
   mongoid_slug (~> 2.0.1)
   rails (= 3.2.13)
   rspec-rails (~> 2.14)
