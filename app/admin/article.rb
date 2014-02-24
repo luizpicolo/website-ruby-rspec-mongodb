@@ -21,7 +21,7 @@ ActiveAdmin.register Article do
 			f.input :image_highlighted
 			f.input :figure_caption
 			f.input :status, :as => :select, :collection => ["published", "unpublished"]
-			f.input :tag_ids, :as => :select, :input_html => { :multiple => true }, :collection => Tag.asc(:name)
+			f.input :tag_ids, :as => :check_boxes, :input_html => { :multiple => true }, :collection => Tag.asc(:name)
 
 		end
 
