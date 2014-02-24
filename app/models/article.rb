@@ -11,8 +11,9 @@ class Article
 	field	:image_highlighted, type: String
 	field	:figure_caption, type: String
 	slug 	:title, history: true
+	field	:status, type: String
 
 	has_and_belongs_to_many :tags
 
-	validates :title, :body, :position_image_highlighted, presence: true
+	validates :title, :body, :position_image_highlighted, :status, presence: true
 end

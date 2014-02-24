@@ -20,7 +20,9 @@ ActiveAdmin.register Article do
 			f.input :position_image_highlighted, :as => :select, :collection => ["None", "Left", "Right", "Center"]
 			f.input :image_highlighted
 			f.input :figure_caption
+			f.input :status, :as => :select, :collection => ["published", "unpublished"]
 			f.input :tag_ids, :as => :check_boxes, :collection => Tag.asc(:name)
+
 		end
 
 		f.actions

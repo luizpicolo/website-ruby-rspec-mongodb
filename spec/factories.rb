@@ -4,6 +4,7 @@ FactoryGirl.define do
     description	""
     body "Body for Test"
     position_image_highlighted "none"
+    status "published"
   end
 
   factory :tag do
