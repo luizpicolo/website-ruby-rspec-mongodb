@@ -57,6 +57,7 @@ GEM
     bson_ext (1.9.2)
       bson (~> 1.9.2)
     builder (3.0.4)
+    chartkick (1.2.2)
     ckeditor (4.0.10)
       mime-types
       orm_adapter (~> 0.5.0)
@@ -202,6 +203,7 @@ DEPENDENCIES
   activeadmin-mongoid
   bcrypt-ruby
   bson_ext
+  chartkick
   ckeditor
   factory_girl_rails (~> 4.0)
   mongoid_slug (~> 2.0.1)

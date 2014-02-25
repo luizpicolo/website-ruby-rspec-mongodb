@@ -5,6 +5,7 @@ FactoryGirl.define do
     body "Body for Test"
     position_image_highlighted "none"
     status "published"
+    tags {[FactoryGirl.create(:tag)]}
   end
 
   factory :tag do
