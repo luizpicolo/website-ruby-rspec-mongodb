@@ -16,7 +16,7 @@ ActiveAdmin.register_page "Dashboard" do
     columns do
       column do
         panel "Articles by tags" do
-            para bar_chart ChartController.new.teste
+            para bar_chart ChartController.new.articles_by_tags
         end
       end
 

@@ -2,11 +2,11 @@ require 'spec_helper'
 
 describe ChartController do
 
-	describe "#teste" do
+	describe "#articles_by_tags" do
 
 		before(:each) do
 			obj = ChartController.new
-			@chart = obj.teste
+			@chart = obj.articles_by_tags
 		end
 
 		it "return valid array" do

@@ -1,6 +1,6 @@
 class ChartController < ApplicationController
 
-	def teste
+	def articles_by_tags
 		array_tags = []
 
 		tags = Tag.all
