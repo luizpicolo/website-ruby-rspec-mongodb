@@ -23,13 +23,15 @@ ActiveAdmin.register_page "Dashboard" do
       end
 
       column do
-        panel "Info" do
+        panel "Articles by Date" do
             para line_chart charts.articles_by_date
         end
       end
 
       column do
-        panel "Info" do
+        panel "number of articles" do
+          para "Articles Published:  #{Article.where(:status => 'published').count}"
+          para "Articles Unpublished:  #{Article.where(:status => 'unpublished').count}"
         end
       end
     end
