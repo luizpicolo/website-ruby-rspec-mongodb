@@ -24,12 +24,12 @@ ActiveAdmin.register_page "Dashboard" do
 
       column do
         panel "Articles by Date" do
-            para line_chart charts.articles_by_date
+            #para line_chart charts.articles_by_date
         end
       end
 
       column do
-        panel "number of articles" do
+        panel "Number of articles" do
           para "Articles Published:  #{Article.where(:status => 'published').count}"
           para "Articles Unpublished:  #{Article.where(:status => 'unpublished').count}"
         end
