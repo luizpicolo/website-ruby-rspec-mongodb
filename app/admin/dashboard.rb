@@ -17,7 +17,7 @@ ActiveAdmin.register_page "Dashboard" do
       column do
         panel "Recent Posts" do
             para "Welcome to ActiveAdmin." 
-            para pie_chart ChartController.new.teste
+            para bar_chart ChartController.new.teste
         end
       end
 
