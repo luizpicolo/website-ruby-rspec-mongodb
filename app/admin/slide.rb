@@ -7,4 +7,16 @@ ActiveAdmin.register Slide do
 	    
 	    default_actions
 	end
+
+	form :html => { :enctype => "multipart/form-data" } do |f|
+		f.inputs "Articles" do
+			f.input :title
+			f.input :link
+			f.input :image
+			f.input :status, :as => :select, :collection => ["published", "unpublished"]
+			
+		end
+
+		f.actions
+	end
 end
