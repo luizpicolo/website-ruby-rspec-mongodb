@@ -2,6 +2,8 @@ require 'spec_helper'
 
 describe ChartController do
 
+	let(:article) { FactoryGirl.create(:article) }
+
 	describe "#articles_by_tags" do
 
 		before(:each) do
