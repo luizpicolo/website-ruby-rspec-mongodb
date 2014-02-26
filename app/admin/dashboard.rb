@@ -13,22 +13,23 @@ ActiveAdmin.register_page "Dashboard" do
     # Here is an example of a simple dashboard with columns and panels.
     #
 
+    charts = ChartController.new
+
     columns do
       column do
         panel "Articles by tags" do
-            para bar_chart ChartController.new.articles_by_tags
+            para bar_chart charts.articles_by_tags
         end
       end
 
       column do
         panel "Info" do
-            para "Welcome to ActiveAdmin."
+            para line_chart charts.articles_by_date
         end
       end
 
       column do
         panel "Info" do
-            para "Welcome to ActiveAdmin."
         end
       end
     end

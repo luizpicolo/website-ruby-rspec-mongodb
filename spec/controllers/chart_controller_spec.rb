@@ -28,4 +28,23 @@ describe ChartController do
 
 	end
 
+	describe "articles_by_date" do
+		
+		before(:each) do
+			obj = ChartController.new
+			@chart = obj.articles_by_date
+		end	  
+
+		it "return valid Hash" do
+			
+			expect(@chart).to be_a_kind_of(Hash); 
+		end
+
+		it "contains elements valid" do
+			expect(@chart.keys[0]).to be_a_kind_of(String); 
+			expect(@chart.values[0]).to be_a_kind_of(Fixnum); 
+		end
+
+	end
+
 end
