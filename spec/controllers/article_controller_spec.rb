@@ -5,6 +5,7 @@ describe ArticleController do
   let(:article) { FactoryGirl.create(:article) }
 
   describe "GET show" do
+
     it "return one article valid?" do
   		get :show, {:title => article.slugs[-1]}
   		
@@ -25,5 +26,4 @@ describe ArticleController do
       expect(response).to render_template("show")
     end
   end
-
 end
