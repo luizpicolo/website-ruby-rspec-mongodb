@@ -9,7 +9,7 @@ class ErrorController < ApplicationController
   end
  
   def internal_error
-    render :status => 500
+    render :status => 404
   end
  
 end
