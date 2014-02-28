@@ -17,6 +17,12 @@ WebsiteRubyRspecMongodb::Application.routes.draw do
   match "article/show"                => "article#show"
   match ":ano/:mes/:dia/:title/"      => "article#show"
 
+  # Routers Error Pages
+  get "/404", :to => "errors#not_found"
+  get "/422", :to => "errors#unacceptable"
+  get "/500", :to => "errors#internal_error"
+
+
   # Sample of named route:
   #   match 'products/:id/purchase' => 'catalog#purchase', :as => :purchase
   # This route can be invoked with purchase_url(:id => product.id)

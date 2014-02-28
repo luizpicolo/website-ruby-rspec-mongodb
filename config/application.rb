@@ -71,5 +71,9 @@ module WebsiteRubyRspecMongodb
     config.assets.version = '1.0'
 
     config.autoload_paths += %W(#{config.root}/app/models/ckeditor)
+
+    # Error Exceptions
+    config.exceptions_app = self.routes
+
   end
 end

@@ -17,6 +17,10 @@ Luiz-Picolo-300x225.jpg: Luiz-Picolo-300x225-78bdf65ac50f5ec6a5df655898b9c37e.jp
 Luiz-Picolo-300x225/index.jpg: Luiz-Picolo-300x225-78bdf65ac50f5ec6a5df655898b9c37e.jpg
 banner.jpg: banner-ad19e567136ef0b92a7d13c769b2956e.jpg
 banner/index.jpg: banner-ad19e567136ef0b92a7d13c769b2956e.jpg
+favicon.ico: favicon-0e22da026cb21c1593c86884c8edbbdf.ico
+favicon/index.ico: favicon-0e22da026cb21c1593c86884c8edbbdf.ico
+favicon.png: favicon-9e184ef48a87c383c205c6011811e357.png
+favicon/index.png: favicon-9e184ef48a87c383c205c6011811e357.png
 fb.png: fb-6c7d500b9156b49e9da4728d7f29176b.png
 fb/index.png: fb-6c7d500b9156b49e9da4728d7f29176b.png
 logoPicolo.png: logoPicolo-993a9e52188eed97d5a261e4d530e93e.png
@@ -39,8 +43,6 @@ active_admin.css: active_admin-d4e535e83097c117844d34a70799a7ae.css
 active_admin/index.css: active_admin-d4e535e83097c117844d34a70799a7ae.css
 application.css: application-1e6f69cd44f6b408f21668e28e6ad82b.css
 application/index.css: application-1e6f69cd44f6b408f21668e28e6ad82b.css
-nicEditorIcons.gif: nicEditorIcons-a9d61ebc2e2f069578db2c961d90bb50.gif
-nicEditorIcons/index.gif: nicEditorIcons-a9d61ebc2e2f069578db2c961d90bb50.gif
 chartkick.js: chartkick-c59fd2f78de74c335adf16df1b924656.js
 chartkick/index.js: chartkick-c59fd2f78de74c335adf16df1b924656.js
 ckeditor/application.js: ckeditor/application-a922c6ba8495995a73ee8e978cfab92d.js
