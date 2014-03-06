@@ -23,5 +23,9 @@ group :production do
   gem 'unicorn'
 end
 
+group :test do
+  gem 'simplecov', :require => false
+end
+
 gem "mongoid_slug", "~> 2.0.1"
 gem "chartkick"

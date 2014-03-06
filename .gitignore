@@ -23,3 +23,6 @@
 
 # Ignore bundle
 /vendor/bundle
+
+# Coverage
+/coverage
