@@ -6,3 +6,6 @@
 <p>Versão: <a href="https://github.com/luizpicolo/website-ruby-rspec-mongodb/releases/tag/v0.0.1">0.0.1</a></p>
 <p>Este repositório tem como intuito manter meu novo site - <a href="http://www.luizpicolo.com.br">Luiz PIcolo</a> - que está sendo migrado para Ruby com 
 framework Rails e banco de dados mongoDB</p>
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/luizpicolo/website-ruby-rspec-mongodb/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
