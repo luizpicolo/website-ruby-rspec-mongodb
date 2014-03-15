@@ -3,6 +3,7 @@
 */
 //= require jquery_cycle
 
+// Jquery Cycles
 $(document).ready(function() {
     $('.slideshow').cycle({
 		fx:     'fade', 
@@ -13,14 +14,18 @@ $(document).ready(function() {
 	});
 });
 
-// function menu(){
-// 	$("#nav-principal a").each(function(){
-// 		alert($(this).attr("href"));
-// 		$(this).attr("href") == window.location.pathname && $(this).parent().attr("class","selecionado")
-// 	})
-// };
+// AddThis
+var addthis_config = {"data_track_addressbar":true};
 
-// menu();
+// Coments disqus
+var disqus_shortname = 'luizpicolo';
+(function() {
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
 
-// $(document).scroll(function(){140<=parseInt($(this).scrollTop())?$("#nav-principal").css({position:"fixed",top:"-15px",background:"#FFF",width:"780px"}):$("#nav-principal").css({position:"relative",top:"0"})});
-// var url=window.location,urlString=url.toString(),urlArray=urlString.split("/");menu(urlArray[3]);function menu(a){$("#nav-principal a").each(function(){a&&($(this).parent().removeClass(),$(this).attr("href")==a&&$(this).parent().attr("class","selecionado"))})}$(document).scroll(function(){140<=parseInt($(this).scrollTop())?$("#nav-principal").css({position:"fixed",top:"-15px",background:"#FFF",width:"780px"}):$("#nav-principal").css({position:"relative",top:"0"})});
+// Tweet Button
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');

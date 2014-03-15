@@ -88,6 +88,7 @@
 		</div>
 
 		<%= javascript_include_tag "//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js", "data-turbolinks-track" => true %>
+		<%= javascript_include_tag "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52f11d0a3e6ffcdb", "data-turbolinks-track" => true %>
 		<%= javascript_include_tag "application", "data-turbolinks-track" => true %>
 
 		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
@@ -99,25 +100,5 @@
 					s.parentNode.insertBefore(g, s)
 				}(document, 'script'));
 		</script>
-
-		<!-- AddThis Smart Layers BEGIN -->
-		<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52f11d0a3e6ffcdb"></script>
-		<script type="text/javascript">
-		  addthis.layers({
-		    'theme' : 'transparent',
-		    'share' : {
-		      'position' : 'left',
-		      'numPreferredServices' : 5
-		    }, 
-		    'follow' : {
-		      'services' : [
-		        {'service': 'facebook', 'id': 'luizpicolo'},
-		        {'service': 'twitter', 'id': 'luizpicolo_'},
-		        {'service': 'linkedin', 'id': 'luizpicolo'}
-		      ]
-		    }   
-		  });
-		</script>
-		<!-- AddThis Smart Layers END -->
 	</body>
 </html>
