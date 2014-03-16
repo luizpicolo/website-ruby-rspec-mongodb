@@ -1,7 +1,7 @@
 <% unless @slides.blank? %>
 <div class="slideshow">
     <%@slides.each do |s|%>
-    <a href="">
+    <a href="<%=s.link%>" target="blank">
         <%= image_tag(s.image, height: '200', width: '770', alt: "Edit Entry") %>
     </a>
     <%end%>
