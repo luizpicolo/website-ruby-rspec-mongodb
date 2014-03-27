@@ -576,10 +576,26 @@ form input[type=submit] {
     }
 
     #prev2 {
-         left: 10px;
-    }
+       left: 10px;
+   }
+
+   a {
+    color: #375C79;
+}
+}
+
+#avatar {
+
+    text-align: center;
 
     a {
-        color: #375C79;
+        width: 150px;
+        height: 150px;
+        margin-top: 30px;
+        display: inline-block;
+        border-radius: 50%;
+        margin-right: 30px;
+        webkit-border-radius: 50%;
+        overflow: hidden;
     }
 }

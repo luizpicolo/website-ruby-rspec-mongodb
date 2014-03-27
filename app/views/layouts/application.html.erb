@@ -4,28 +4,28 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
 <html class="no-js">
-	<!--<![endif]-->
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<title>Luiz Picolo - <%=@title%></title>
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Luiz Picolo - <%=@title%></title>
 
-		<meta property="og:title" content="<%=@title%>"/>
-		<meta property="og:image" content="http://i.imgur.com/t9Azfup.jpg" />
-		<meta property="og:site_name" content="Luiz Picolo - Desenvolvimento Web"/>
-		<meta property="og:description" content="<%=@description%>"/>
+	<meta property="og:title" content="<%=@title%>"/>
+	<meta property="og:image" content="http://i.imgur.com/t9Azfup.jpg" />
+	<meta property="og:site_name" content="Luiz Picolo - Desenvolvimento Web"/>
+	<meta property="og:description" content="<%=@description%>"/>
 
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!--[if IE]><link rel="shortcut icon" href="/assets/favicon.ico"><![endif]-->
-		<link rel="icon" href="/assets/favicon.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--[if IE]><link rel="shortcut icon" href="/assets/favicon.ico"><![endif]-->
+	<link rel="icon" href="/assets/favicon.png">
 
-		<%= stylesheet_link_tag	"application", media: "all", "data-turbolinks-track" => true %>
-  		<%= csrf_meta_tags %>
+	<%= stylesheet_link_tag	"application", media: "all", "data-turbolinks-track" => true %>
+	<%= csrf_meta_tags %>
 
-		<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700' rel='stylesheet' type='text/css'>
-		<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-	</head>
-	<body>
+	<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700' rel='stylesheet' type='text/css'>
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+</head>
+<body>
 		<!--[if lt IE 7]>
 		<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
 		<![endif]-->
@@ -33,6 +33,11 @@
 		<div class="centro">
 			<!-- CABEÇALHO -->
 			<header id="topo">
+				<div id="avatar">
+					<a href="/">
+						<img src="http://www.gravatar.com/avatar/2dbb97ae89bab54f42091907937d0a1b.jpg?s=150">
+					</a>
+				</div>
 				<hgroup id="logomarca">
 					<a href="/"> 
 						<h1>Luiz Picolo</h1> 
@@ -93,12 +98,12 @@
 
 		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 		<script>
-			var _gaq = [['_setAccount', 'UA-21765459-1'], ['_trackPageview']];
-			( function(d, t) {
-					var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
-					g.src = '//www.google-analytics.com/ga.js';
-					s.parentNode.insertBefore(g, s)
-				}(document, 'script'));
+		var _gaq = [['_setAccount', 'UA-21765459-1'], ['_trackPageview']];
+		( function(d, t) {
+			var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
+			g.src = '//www.google-analytics.com/ga.js';
+			s.parentNode.insertBefore(g, s)
+		}(document, 'script'));
 		</script>
 	</body>
-</html>
+	</html>
