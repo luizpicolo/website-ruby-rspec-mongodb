@@ -16,6 +16,7 @@ WebsiteRubyRspecMongodb::Application.routes.draw do
   match "publicacoes"                 => "publication#index"
   match "article/show"                => "article#show"
   match ":ano/:mes/:dia/:title/"      => "article#show"
+  match "sitemap.xml"                 => "sitemap#index"
 
   # Sample of named route:
   #   match 'products/:id/purchase' => 'catalog#purchase', :as => :purchase
