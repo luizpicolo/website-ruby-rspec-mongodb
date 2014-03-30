@@ -23,6 +23,7 @@ gem "bcrypt-ruby", :require => "bcrypt"
 group :production do
   gem 'unicorn'
   gem 'rails_12factor'
+  gem 'xml-sitemap'
 end
 
 group :test do
