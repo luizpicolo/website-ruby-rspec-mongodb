@@ -12,7 +12,7 @@
     </div>
     <!-- AddThis Button END -->
 
-    <div class="post-date">Publicado em: <%=@article.published_in.to_s.gsub("-", "/")%> - Luiz Picolo</div>
+    <div class="post-date">Publicado em: <%=@article.published_in.strftime("%d/%m/%Y")%> - Por: Luiz Picolo</div>
 
     <%=@article.body.html_safe%>
 
