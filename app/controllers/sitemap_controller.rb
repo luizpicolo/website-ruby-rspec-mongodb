@@ -1,12 +1,12 @@
 class SitemapController < ApplicationController
 
-	layout false
+	#layout false
 
 	def index
-		@article = Article.all
+		@static_pages = ["", "quem-sou", "portfolio", "publicacoes", "contato"]
+		@articles = Article.all
 		respond_to do |format|
-			format.xml { render :xml =>@article.to_xml }
-		end			
+		  format.xml
+		end	
 	end
-
 end
