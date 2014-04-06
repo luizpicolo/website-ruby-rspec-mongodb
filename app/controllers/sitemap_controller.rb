@@ -4,7 +4,7 @@ class SitemapController < ApplicationController
 
 	def index
 		@static_pages = ["", "quem-sou", "portfolio", "publicacoes", "contato"]
-		@articles = Article.all
+		@articles = Article.order_by(:published_in.desc)
 		respond_to do |format|
 		  format.xml
 		end	
