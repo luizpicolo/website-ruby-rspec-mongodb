@@ -41,8 +41,8 @@ application.js: application-6c75dc36fc870c42cc110fc8f9a37fa5.js
 application/index.js: application-6c75dc36fc870c42cc110fc8f9a37fa5.js
 active_admin.css: active_admin-d4e535e83097c117844d34a70799a7ae.css
 active_admin/index.css: active_admin-d4e535e83097c117844d34a70799a7ae.css
-application.css: application-f3bb445fa726bff043e0fd4ed9842e49.css
-application/index.css: application-f3bb445fa726bff043e0fd4ed9842e49.css
+application.css: application-88d3b5da9ae9be444ddbcd65e8201339.css
+application/index.css: application-88d3b5da9ae9be444ddbcd65e8201339.css
 chartkick.js: chartkick-c59fd2f78de74c335adf16df1b924656.js
 chartkick/index.js: chartkick-c59fd2f78de74c335adf16df1b924656.js
 ckeditor/application.js: ckeditor/application-a922c6ba8495995a73ee8e978cfab92d.js
