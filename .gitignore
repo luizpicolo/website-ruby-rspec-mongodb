@@ -17,6 +17,7 @@
 # ignore folder layout
 /layout
 
+
 # ignore public assets
 # /public/assets
 .env
@@ -26,3 +27,4 @@
 
 # Coverage
 /coverage
+.idea/
