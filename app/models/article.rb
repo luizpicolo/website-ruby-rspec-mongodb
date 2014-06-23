@@ -2,6 +2,8 @@ class Article
 	include Mongoid::Document
 	include Mongoid::Timestamps
 	include Mongoid::Slug
+  # include Mongoid::Elasticsearch
+  # elasticsearch!
 
 	field 	:title, type: String
 	field 	:published_in, type: Date

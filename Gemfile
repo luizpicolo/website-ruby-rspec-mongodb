@@ -33,3 +33,4 @@ gem "mongoid_slug", "~> 2.0.1"
 gem "chartkick"
 
 gem 'kaminari'
+gem 'mongoid-elasticsearch'
