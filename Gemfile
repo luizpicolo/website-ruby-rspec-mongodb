@@ -4,7 +4,7 @@ ruby "2.0.0"
 gem 'rails', '3.2.13'
 
 group :assets do
-  gem 'sass-rails',   '~> 3.2.3' 
+  gem 'sass-rails',   '~> 3.2.3'
   gem 'uglifier', '>= 1.0.3'
 end
 
@@ -33,4 +33,4 @@ gem "mongoid_slug", "~> 2.0.1"
 gem "chartkick"
 
 gem 'kaminari'
-#gem 'mongoid-elasticsearch'
+gem 'therubyracer'
